@@ -1,6 +1,3 @@
 ﻿namespace OpenWebUiProxyRApi;
 
-public class ModelsService
-{
-    
-}
+public record ModelsService(string JsonContent);

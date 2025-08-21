@@ -1,6 +1,8 @@
-﻿namespace OpenWebUiProxyRApi;
+﻿using Microsoft.AspNetCore.Authentication;
 
-public class StaticBearerOptions
+namespace OpenWebUiProxyRApi;
+
+public class StaticBearerOptions : AuthenticationSchemeOptions
 {
-    
+    public string Token { get; set; } = string.Empty;
 }
