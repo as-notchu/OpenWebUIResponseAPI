@@ -9,4 +9,6 @@ public class ChatCompletionRequest
 
     [JsonPropertyName("messages")]
     public List<ChatMessage> Messages { get; set; }
+
+    [JsonPropertyName("reasoning_effort")] public string ReasoningEffort { get; set; } = "None";
 }
