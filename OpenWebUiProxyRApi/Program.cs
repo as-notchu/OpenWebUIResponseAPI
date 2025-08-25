@@ -53,4 +53,4 @@ app.Use(async (context, next) =>
 
     await next();
 });
-app.Run("http://localhost:8987/");
+app.Run("http://0.0.0.0:8987/");
