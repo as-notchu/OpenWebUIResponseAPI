@@ -12,6 +12,12 @@
       "object": "model",
       "created": 1687882411,
       "owned_by": "openai"
+    },
+    {
+      "id": "gpt-4o",
+      "object": "model",
+      "created": 1686588896,
+      "owned_by": "openai"
     }
   ]
 }
