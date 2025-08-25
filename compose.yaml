@@ -1,0 +1,8 @@
+﻿services:
+  openwebuiproxyrapi:
+    image: openwebuiproxyrapi
+    build:
+      context: .
+      dockerfile: OpenWebUiProxyRApi/Dockerfile
+    ports:
+      - "8987:8080"
